@@ -1,0 +1,45 @@
+node_modules/
+dist/
+*.js.map
+*.d.ts
+
+# Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+sea-prep.blob
+*.blob
+
+# Logs
+*.log
+npm-debug.log*
+
+# Uploads (keep directory but ignore uploaded files)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# SSL certificates
+certs/
+
+# Coverage
+coverage/
+.nyc_output/

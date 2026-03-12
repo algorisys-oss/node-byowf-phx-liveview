@@ -1,0 +1,29 @@
+{
+  "name": "blaze",
+  "version": "0.0.0",
+  "description": "Phoenix + LiveView clone for Node.js, built from scratch",
+  "type": "module",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "npx tsx --watch src/app.ts",
+    "start": "npx tsx src/app.ts",
+    "routes": "npx tsx src/cli/routes.ts",
+    "test": "npx tsx --test test/**/*.test.ts",
+    "cluster": "npx tsx src/cluster.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshpillai/node-byowf.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.60.0"
+  }
+}

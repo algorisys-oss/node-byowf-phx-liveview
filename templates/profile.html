@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>${assigns.name} — Blaze</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+  h1 { color: #e45; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; }
+  .label { font-weight: bold; color: #666; }
+  a { color: #36c; }
+</style>
+</head>
+<body>
+  <h1>User Profile</h1>
+  <div class="card">
+    <p><span class="label">ID:</span> ${assigns.id}</p>
+    <p><span class="label">Name:</span> ${assigns.name}</p>
+    <p><span class="label">Email:</span> ${assigns.email}</p>
+  </div>
+  <p><a href="/">← Back to home</a></p>
+</body>
+</html>
